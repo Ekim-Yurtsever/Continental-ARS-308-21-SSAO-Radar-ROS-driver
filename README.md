@@ -16,7 +16,7 @@ ROS node for Continental-ARS-308-21-SSAO-Radar.
 
 ## Installation 
 
-First set the CAN driver of the linux kernell (SocketCAN). Below is an example sniplet for setting can device can1:
+First set the CAN driver of the linux kernel (SocketCAN). Below is an example sniplet for setting can device can1:
 
     $ modprobe can_dev
     $ modprobe can
