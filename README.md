@@ -41,4 +41,4 @@ Start ros and get the CAN messages from the canbus
     $ roscore
     $ rosrun socketcan_bridge socketcan_to_topic_node _can_device:="can1"
     
-Now run cantopic_to_data node provided here to convert the CAN messages into object locations. Good luck!
+Now make the project and run the cantopic_to_data rosnode provided here to convert the CAN messages into object locations. Good luck!
